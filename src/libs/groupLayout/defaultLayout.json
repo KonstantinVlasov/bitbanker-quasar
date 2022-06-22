@@ -1,0 +1,25 @@
+{
+    "root": {
+    "content": [{
+      "type": "row",
+      "content": [
+        {
+          "type": "component",
+          "componentName": "example",
+          "componentState": { "text": "Component 1" }
+        },
+        {
+          "type": "component",
+          "componentName": "example",
+          "componentState": { "text": "Component 2" }
+        },
+        {
+          "type": "component",
+          "componentName": "example",
+          "componentState": { "text": "'Component 3'" }
+        }
+      ]
+    }]
+    }
+}
+  

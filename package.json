@@ -6,6 +6,7 @@
   "author": "KonstantinVlasov",
   "private": true,
   "scripts": {
+    "dev": "quasar dev",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -16,13 +17,17 @@
     "core-js": "^3.6.5",
     "golden-layout": "^2.5.0",
     "pinia": "^2.0.11",
+    "pubsub-js": "^1.9.4",
     "quasar": "^2.6.0",
+    "throttle-debounce": "^5.0.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
     "@quasar/app-webpack": "^3.0.0",
     "@types/node": "^12.20.21",
+    "@types/pubsub-js": "^1.8.3",
+    "@types/throttle-debounce": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "@unocss/webpack": "^0.39.3",
